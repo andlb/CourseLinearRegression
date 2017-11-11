@@ -25,3 +25,9 @@ Maximum Entropy classifier
 It is similar naive bayes classifier, however it uses technique to find a set of parameters that maximize the total likehood of the training corpus.
 
 It is important to know the difference from discriptive models and explanatory models. Discriptive models capture datas patterns from the data but they don't provide information about why the data contais that pattern. If we are interested just to make prediction, we can use discriptive models, however if we can understantg the linguistic pattern the model should be explanatory
+
+
+Extraction architecture
+
+raw text -> tokenization -> part of speach taggling -> entity detectation -> relation detectation
+
